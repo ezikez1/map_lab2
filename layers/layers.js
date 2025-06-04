@@ -21,7 +21,7 @@ var lyr_1000_0 = new ol.layer.Vector({
     <img src="styles/legend/1000_0_4.png" /> 149 - 205<br />'
         });
 var format__1 = new ol.format.GeoJSON();
-var features__1 = format__1.readFeatures(json__1, 
+var features__1 = format__1.readFeatures(json_1, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource__1 = new ol.source.Vector({
     attributions: ' ',
